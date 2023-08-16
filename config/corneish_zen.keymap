@@ -42,7 +42,7 @@
 };
 
 / {
-    
+
     behaviors {
         // Sticky key on tap, keypress on hold
         st: sticky_tap {
@@ -125,7 +125,7 @@
                 _______         &kp N1          &kp N2          &kp N3          &kp N4          &kp N5          &kp N6          &kp N7          &kp N8          &kp N9          &kp N0          _______
                 _______         _______         _______         _______         _______         _______         &kp SEMI        &kp MINUS       &kp EQUAL       &kp LBKT        &kp RBKT        _______
                 _______         &kp LSHFT       _______         _______         _______         _______         _______         &kp BSLH        &kp GRAVE       &kp DOT         &kp RSHFT       _______
-                &bootloader     _______         _______         _______         _______         &reset
+                &bootloader     _______         _______         _______         _______         &sys_reset
             >;
         };
 
